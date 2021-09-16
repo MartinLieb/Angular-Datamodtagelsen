@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+  height: 100%;
+  width: 100%;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+body {
+  background-color: white; /* For browsers that do not support gradients */
+  background-image: radial-gradient(#FFF, #EEE2dc);
+  overflow: hidden;
+}
+
+
+

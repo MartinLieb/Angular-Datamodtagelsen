@@ -1,0 +1,35 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  border-radius: 10px;
+  height: 55px;
+  width: 150px;
+  margin: 10px;
+  color: white;
+  background-color: #123c69;
+  border-color: white;
+}
+
+.componentWrapper {
+  width: 100%;
+}

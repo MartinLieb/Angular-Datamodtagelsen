@@ -1,0 +1,35 @@
+<div class="comp1Wrapper">
+
+  <form action="action_page.php" method="post">
+
+
+    <div class="container">
+      <div class="imgcontainer">
+        <img src="./assets/avatar.png" alt="Avatar" class="avatar">
+      </div>
+      <h3>Vandløbsdata Login</h3>
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button routerLink="/upload-component" routerLinkActive="active" type="submit" (click)="uploadWater()">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#EDC7B7">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+
+  <ol class="checkList">
+    <li>Opsætning af regneark, find vejledning her:   <a href="#">Vejledning til regneark</a></li>
+    <li>Login og upload data</li>
+    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+  </ol>
+
+</div>
